@@ -13,9 +13,14 @@ SERVIÇOS DISPONÍVEIS
 	- pattern = host/xy-inc
 	- http://localhost:8080/xy-inc/
 	
-* INSERT
+* INSERT - GET
 	- pattern = host/xy-inc/insert/nomePontoDeInteresse/CoordenadaX/CoordenadaY
 	- http://localhost:8080/xy-inc/insert/teste/123/345
+	
+* INSERT - POST
+	- pattern = host/xy-inc/insert/
+	- http://localhost:8080/xy-inc/insert/
+	- RequestBody = {"nomePOI":"Zup","coordenadaX":12,"coordenadaY":16}
 
 * FIND BY MARGEM
 	- pattern = host/xy-inc/margem/CoordenadaX/CoordenadaY/Margem
