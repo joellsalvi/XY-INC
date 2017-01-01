@@ -1,0 +1,1 @@
+insert into PontoDeInteresse (id, nome_poi, coordenada_x, coordenada_y) values (0, 'Teste', '327', '132');

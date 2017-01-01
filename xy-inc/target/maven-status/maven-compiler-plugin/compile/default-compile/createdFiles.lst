@@ -1,0 +1,6 @@
+br\com\zup\xyinc\model\PontoDeInteresse.class
+br\com\zup\xyinc\business\PontoDeInteresseModelImpl.class
+br\com\zup\xyinc\data\PontoDeInteresseDAOImpl.class
+br\com\zup\xyinc\business\PontoDeInteresseModel.class
+br\com\zup\xyinc\data\PontoDeInteresseDAO.class
+br\com\zup\xyinc\controller\PontoDeInteresseController.class
