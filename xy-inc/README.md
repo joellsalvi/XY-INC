@@ -4,7 +4,7 @@ SERVIDOR UTILIZADO NO DESENVOLVIMENTO
 
 INSTRUCOES PARA EXECUÇÃO
 
-* Colocar arquivo xy-inc.war em um servidor Jboss AS 7.1 e subir o mesmo.
+* Colocar arquivo "xy-inc\target\xy-inc.war" em um servidor Jboss AS 7.1 e subir o mesmo.
 * Caso for subir pelos fontes, executar clean install antes.
 
 SERVIÇOS DISPONÍVEIS

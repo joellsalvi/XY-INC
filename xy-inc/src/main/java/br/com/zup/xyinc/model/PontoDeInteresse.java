@@ -9,8 +9,8 @@ import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import javax.persistence.Table;
 import javax.persistence.UniqueConstraint;
+import javax.validation.constraints.Min;
 import javax.validation.constraints.NotNull;
-import javax.validation.constraints.Pattern;
 
 import org.hibernate.annotations.NamedNativeQueries;
 import org.hibernate.annotations.NamedNativeQuery;
@@ -41,10 +41,12 @@ public class PontoDeInteresse implements Serializable {
 	private String nomePOI;
 	
 	@NotNull
+	@Min(value=0L)
     @Column(name = "coordenada_x", nullable = false, unique = false)
 	private Long coordenadaX;
 	
 	@NotNull
+	@Min(value=0L)
     @Column(name = "coordenada_y", nullable = false, unique = false)
 	private Long coordenadaY;
 
